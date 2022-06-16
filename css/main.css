@@ -1,0 +1,54 @@
+:root {
+    --main-color: #3f51b5;
+}
+
+body {
+    background: #f6f6f6 !important;
+}
+
+@media only screen and (min-width: 993px) {}
+
+.container {
+    width: 90%;
+}
+
+
+nav .brand-logo {
+    padding-left: 20px !important;
+}
+
+nav .nav-wrapper {
+    padding-right: 20px !important;
+}
+
+.sidenav {
+    padding-top: 30px !important;
+}
+
+.add-post {
+    margin-top: 30px;
+}
+
+.add-post input:focus {
+    border-bottom: 1px solid indigo !important;
+}
+
+.artical {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.artical a {
+    color: var(--main-color);
+}
+
+.artical button {
+    padding: 10px;
+    color: white;
+    background: var(--main-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer !important;
+}
